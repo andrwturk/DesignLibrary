@@ -10,4 +10,6 @@ class ConcreteViewModel: ViewModel {
     var dataBinder: DataBinder = WritingDataBinder()
     var writingDataBinder: WritingDataBinder { get{ return dataBinder as! WritingDataBinder } }
     weak var delegate: ViewModelDelegate?
+    
+    // define implementation for commands here
 }

@@ -17,4 +17,3 @@ protocol ViewModelDelegate: class {
     func viewModelDidEndUpdate(viewModel: ViewModel)
     func viewModelDidFailUpdate(viewModel: ViewModel, withError error: Error)
 }
-
