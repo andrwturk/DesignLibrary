@@ -7,9 +7,10 @@
 //
 
 protocol ViewModel: class {
+    // define ViewModel commands
+    <#command#>
     var dataBinder: DataBinder { get }
     weak var delegate: ViewModelDelegate? { get set }
-    // define ViewModel commands
 }
 
 protocol ViewModelDelegate: class {

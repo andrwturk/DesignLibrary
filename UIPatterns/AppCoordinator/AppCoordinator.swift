@@ -17,7 +17,7 @@ class AppCoordinator: Coordinator {
     }
     
     func start() {
-        showVehiclesMap()
+        showFirstViewController()
     }
     
     func showFirstViewController() {
